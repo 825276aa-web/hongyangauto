@@ -81,15 +81,17 @@
 
 <div class="container" id="contact">
     <h2 class="title">Send Inquiry</h2>
-    <div class="form-box">
-        <form action="https://formspree.io/f/demo" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="country" placeholder="Your Country">
-            <textarea name="message" rows="5" placeholder="Tell us which car you want, quantity, destination port"></textarea>
-            <button type="submit">Submit Inquiry</button>
-        </form>
-    </div>
+   
+<div class="form-box">
+    <input type="text" name="name" placeholder="Your Name" required style="margin-bottom:10px;">
+    <input type="email" name="email" placeholder="Your Email" required style="margin-bottom:10px;">
+    <input type="text" name="country" placeholder="Your Country" style="margin-bottom:10px;">
+    <textarea name="message" rows="5" placeholder="Tell us which car you want, quantity, destination port" style="margin-bottom:10px;"></textarea>
+    <p style="color:#666;font-size:14px;margin:8px 0;">Click button to send inquiry via email</p>
+    <a href="mailto:18712925785@163.com?subject=Car Export Inquiry&body=Name:%0AEmail:%0ACountry:%0ACar Model & Quantity & Destination Port:">
+        <button type="button">Submit Inquiry</button>
+    </a>
+</div>
 </div>
 
 <footer>
