@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hongyang Auto | Used & New Car Export</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+        header{background:#112840;color:#fff;padding:1rem 5%;display:flex;justify-content:space-between;align-items:center;}
+        .logo{font-size:24px;font-weight:bold;}
+        nav a{color:#fff;margin:0 15px;text-decoration:none;}
+        .banner{background:#f5f7fa;padding:60px 5%;text-align:center;}
+        .banner h1{font-size:36px;color:#112840;margin-bottom:15px;}
+        .container{max-width:1200px;margin:40px auto;padding:0 5%;}
+        .title{text-align:center;font-size:28px;color:#112840;margin-bottom:30px;}
+        .car-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;}
+        .car-card{border:1px solid #eee;border-radius:8px;overflow:hidden;}
+        .car-card img{width:100%;height:200px;object-fit:cover;}
+        .car-info{padding:15px;}
+        .about{background:#f5f7fa;padding:50px 5%;margin:50px 0;}
+        .form-box{max-width:700px;margin:0 auto;background:#fff;padding:30px;border-radius:8px;box-shadow:0 0 10px #eee;}
+        input,textarea{width:100%;padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:4px;}
+        button{background:#25d366;color:#fff;border:none;padding:14px 30px;border-radius:4px;font-size:16px;cursor:pointer;}
+        footer{background:#112840;color:#fff;text-align:center;padding:20px;margin-top:50px;}
+        .wa-float{position:fixed;right:20px;bottom:20px;width:60px;height:60px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:999;}
+        .wa-float a{color:#fff;font-size:30px;text-decoration:none;}
+    </style>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">清远市鸿洋商贸有限公司 HONGYANG AUTO</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cars">Our Cars</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="banner" id="home">
+    <h1>Professional New & Used Car Export Supplier</h1>
+    <p>Toyota / BYD / BMW / All Brands, Global Sea Shipping Service</p>
+</section>
+
+<div class="container" id="cars">
+    <h2 class="title">Hot Selling Vehicles</h2>
+    <div class="car-list">
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2" alt="Toyota Car">
+            <div class="car-info">
+                <h3>Toyota Corolla</h3>
+                <p>Good Condition, Low Mileage</p>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89" alt="BMW">
+            <div class="car-info">
+                <h3>BMW Series 3</h3>
+                <p>Luxury Sedan, Full Options</p>
+            </div>
+        </div>
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7" alt="BYD EV">
+            <div class="car-info">
+                <h3>BYD Electric Car</h3>
+                <p>New Energy EV, Cheap Shipping</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="title">About Us</h2>
+        <p>Qingyuan Hongyang Trading Co., Ltd specializes in exporting new and used cars from China to Curacao and other global markets. We provide full service: vehicle inspection, customs clearance, sea freight, one-stop export solution.</p>
+        <br>
+        <p>清远市鸿洋商贸有限公司主营全新及二手汽车出口，可发往库拉索等海外国家，提供车辆检测、报关、海运一站式出口服务，车型覆盖丰田、比亚迪、宝马等全系燃油车与新能源电车。</p>
+    </div>
+</section>
+
+<div class="container" id="contact">
+    <h2 class="title">Send Inquiry</h2>
+    <div class="form-box">
+        <form action="https://formspree.io/f/demo" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="country" placeholder="Your Country">
+            <textarea name="message" rows="5" placeholder="Tell us which car you want, quantity, destination port"></textarea>
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>Qingyuan Hongyang Trading Co., Ltd | All Rights Reserved</p>
+</footer>
+
+<div class="wa-float">
+    <a href="https://wa.me/8613800000000" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+</body>
+</html>
